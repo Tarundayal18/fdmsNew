@@ -57,7 +57,7 @@ export default function HeroSection() {
   return (
     <section className="relative w-full bg-[#FFF8E7] py-12 md:py-12 overflow-hidden">
       {/* Heading Section */}
-      <div className="container mx-auto px-4 text-center mb-12 md:mb-16">
+      <div className="container mx-auto px-4 text-center mb-12 md:mb-16 mt-18 sm:mt-10 md:mt-14">
         {/* AGENIUS Title with Badges */}
         <div className="relative inline-block">
           <h1 className="font-oswald text-7xl md:text-9xl lg:text-[16rem] font-[550] text-[#3D1A1F] tracking-tight leading-[1.1]">
