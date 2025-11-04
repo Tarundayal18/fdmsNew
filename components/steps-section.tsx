@@ -5,30 +5,30 @@ import { useState } from "react"
 const stepsData = [
   {
     id: 1,
-    title: "Magic in Progress",
+    title: "Kickoff & Coffee Chats",
     description:
       "We head into the creative cave and start sketching, designing, writing, and building. You'll get updates, sneak peeks, and maybe a few happy dances along the way.",
     imageSrc: "/Container.png",
   },
   {
     id: 2,
-    title: "Kickoff & Coffee Chats",
+    title: "Strategy & Concepts",
     description:
-      "We get to know you—your brand, your goals, your vibe (and maybe your favorite snacks). This is where the ideas start flying and the creative wheels start turning.",
+      "With a shared understanding in place, we map the plan and explore creative directions that will move the needle.",
     imageSrc: "/Container.png",
   },
   {
     id: 3,
-    title: "Strategy & Planning",
+    title: "Design & Development",
     description:
-      "We dive deep into market research, competitor analysis, and audience insights. Together, we craft a roadmap that turns your vision into a concrete action plan.",
+      "We bring the concepts to life with beautifully crafted design and solid builds, keeping you looped in the whole way.",
     imageSrc: "/images/step3.png",
   },
   {
     id: 4,
-    title: "Launch & Optimize",
+    title: "Launch & High Fives",
     description:
-      "We launch your campaign with precision and monitor performance in real-time. Continuous optimization ensures you get the best results and maximum ROI.",
+      "We go live, you look incredible, and we celebrate. Ongoing help later? Always just a message away.",
     imageSrc: "/images/step4.png",
   },
 ]
@@ -39,27 +39,29 @@ export default function StepsSection() {
 
   return (
     <section 
-      className="w-full py-16 px-4 md:py-24 min-h-screen flex items-center"
+      className="w-full py-16 px-4 md:py-24 min-h-screen flex "
       style={{
         backgroundColor: 'transparent',
-        backgroundImage: 'radial-gradient(ellipse 8px 8px, rgb(192, 236, 191), rgb(192, 236, 191) 25%, rgb(246, 194, 244) 25%)',
-        backgroundSize: '16px 16px'
+        backgroundImage:
+        'radial-gradient(ellipse 8px 8px, rgb(250, 225, 199) 25%, rgb(246, 215, 201) 32%, rgb(245, 197, 242) 25%)',
+        backgroundSize: '16px 16px',
       }}
+      
     >
-      <div className="max-w-6xl mx-auto w-full">
+      <div className="max-w-[90rem] mx-auto w-full text-center">
         <div className="mb-12 md:mb-16 relative">
-          <h2 className="text-5xl md:text-7xl font-black text-purple-900 leading-tight text-balance">
+          <h2 className="text-5xl md:text-8xl font-oswald text-[#3b001b] font-bold leading-tight text-balance">
             Our not-so
             <br />
             secret sauce
           </h2>
-          <div className="absolute top-8 left-48 md:left-64 bg-green-300 text-purple-900 px-4 py-2 rounded-full text-sm md:text-base font-bold transform -rotate-12 shadow-md">
+          {/* <div className="absolute top-8 left-48 md:left-64 bg-green-300 text-purple-900 px-4 py-2 rounded-full text-sm md:text-base font-bold transform -rotate-12 shadow-md">
             Process
-          </div>
+          </div> */}
         </div>
 
         {/* Content card */}
-        <div className="bg-gradient-to-r from-pink-100 to-pink-50 rounded-3xl p-8 md:p-12 shadow-2xl">
+        <div className="bg-white from-pink-100 to-pink-50 rounded-3xl p-8 md:p-12 shadow-2xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             {/* Left content */}
             <div className="order-2 md:order-1">
@@ -68,9 +70,9 @@ export default function StepsSection() {
                   <button
                     key={step.id}
                     onClick={() => setActiveStep(step.id)}
-                    className={`w-12 h-12 md:w-14 md:h-14 rounded-2xl font-bold text-lg md:text-xl transition-all duration-300 ${
+                    className={`w-10 h-10 md:w-12 md:h-12 rounded-full font-bold text-lg md:text-xl transition-all duration-300 ${
                       activeStep === step.id
-                        ? "bg-black text-white shadow-lg"
+                        ? "bg-[#3b001b] text-white shadow-lg"
                         : "bg-white text-black border-2 border-black hover:scale-105"
                     }`}
                   >
@@ -79,8 +81,8 @@ export default function StepsSection() {
                 ))}
               </div>
 
-              <h3 className="font-bold text-3xl md:text-4xl text-[#3b001b] mb-4 leading-tight">{currentStep?.title}</h3>
-              <p className="text-[#3b001b] text-base md:text-lg leading-relaxed opacity-90">{currentStep?.description}</p>
+              <h3 className="font-bold font-oswald text-2xl md:text-3xl text-[#3b001b] mb-4 leading-tight">{currentStep?.title}</h3>
+              <p className="text-[#3b001b] text-1xl md:text-1xl font-oswald text-base md:text-lg leading-relaxed opacity-90">{currentStep?.description}</p>
             </div>
 
             {/* Right illustration */}
@@ -97,7 +99,7 @@ export default function StepsSection() {
                   <img
                     src={currentStep?.imageSrc}
                     alt={currentStep?.title}
-                    className="w-full h-auto object-contain max-w-4xl"
+                    className="w-[80%] md:w-[60%] lg:w-[60%] h-auto object-contain mx-auto transition-all duration-300"
 
                   />
                 </div>

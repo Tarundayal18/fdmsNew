@@ -14,43 +14,43 @@ const faqItems: FaqItem[] = [
     id: 1,
     question: "What services do you offer?",
     answer:
-      "We offer a comprehensive range of design and branding services including logo design, brand identity development, web design, and complete brand overhauls tailored to your business needs.",
+      "We specialize in branding, web design, content creation, social media management, and creative strategy. Basically, if it needs a creative touch, we're your people!",
   },
   {
     id: 2,
     question: "How long does a typical project take?",
     answer:
-      "It depends on the scope! A simple logo design might take a week, while a full brand overhaul can take a few months. We'll give you a clear timeline upfront and keep you updated throughout.",
+      "It varies! A simple branding project might take a few weeks, while a full website build can take a couple of months. We'll give you a clear timeline upfront.",
   },
   {
     id: 3,
     question: "How do you ensure the work matches my vision?",
     answer:
-      "We start with detailed discovery sessions to understand your goals, target audience, and brand values. Regular communication and revision rounds ensure the final product aligns perfectly with your vision.",
+      "Communication is key. We start with a deep dive into your goals and have regular check-ins and feedback rounds to make sure we're always on the same page.",
   },
   {
     id: 4,
     question: "Do you offer revisions?",
     answer:
-      "We include multiple revision rounds in our packages. We'll work with you until you're completely satisfied with the results, ensuring your investment delivers exactly what you need.",
+      "Absolutely. We include a set number of revision rounds in every project to ensure you're 100% happy with the final result.",
   },
   {
     id: 5,
-    question: "Do you offer revisions?",
+    question: "Can you work with my existing brand guidelines?",
     answer:
-      "We include multiple revision rounds in our packages. We'll work with you until you're completely satisfied with the results, ensuring your investment delivers exactly what you need.",
+      "For sure. We're experts at adapting to existing brand identities and can help you build upon them consistently and creatively.",
   },
   {
     id: 6,
-    question: "Do you offer revisions?",
+    question: "What's the payment structure like?",
     answer:
-      "We include multiple revision rounds in our packages. We'll work with you until you're completely satisfied with the results, ensuring your investment delivers exactly what you need.",
+      "We typically require a 50% deposit to kick things off, with the remaining balance due upon project completion. We can be flexible for larger projects.",
   },
   {
     id: 7,
-    question: "Do you offer revisions?",
+    question: "Do you offer ongoing support after the project is completed?",
     answer:
-      "We include multiple revision rounds in our packages. We'll work with you until you're completely satisfied with the results, ensuring your investment delivers exactly what you need.",
+      "Yes, we do! We offer a range of support and retainer packages to help you with ongoing needs, whether it's content updates, site maintenance, or new creative assets.",
   },
 ]
 
@@ -63,7 +63,7 @@ export default function FaqSection() {
 
   return (
     <section className="w-full px-4 py-12 md:py-20" style={{ backgroundColor: "#F09FA8" }}>
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-8xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12 md:mb-16">
           <h1 className="text-8xl md:text-10xl font-bold mb-4" style={{ color: "#3B001B", fontFamily: "Oswald" }}>
@@ -79,13 +79,13 @@ export default function FaqSection() {
         </div>
 
         {/* FAQ Items */}
-        <div className="space-y-4 md:space-y-6">
+        <div className="space-y-4 md:space-y-3">
           {faqItems.map((item) => (
             <div key={item.id} className="flex flex-col">
               {/* Question Button */}
               <button
                 onClick={() => toggleExpand(item.id)}
-                className="w-full px-6 md:px-8 py-4 md:py-5 rounded-full flex items-center justify-between hover:opacity-90 transition-opacity"
+                className="w-full px-6 md:px-8 py-2 md:py-2 rounded-2xl flex items-center justify-between hover:opacity-90 transition-opacity"
                 style={{ backgroundColor: "#FFFACD" }}
               >
                 <h3

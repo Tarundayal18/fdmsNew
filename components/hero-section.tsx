@@ -36,13 +36,13 @@
 //         </button>
 //       </div>
 
-        
+
 //       <div className="relative w-full max-w-7xl mx-auto px-4 py-8 md:py-12">
 //         <div className="relative w-full flex items-center justify-center min-h-[400px] md:min-h-[600px]">
 //           {/* Concentric Circles Background */}
-          
 
-         
+
+
 //         </div>
 //       </div>
 
@@ -60,9 +60,14 @@ export default function HeroSection() {
       <div className="container mx-auto px-4 text-center mb-12 md:mb-16 mt-18 sm:mt-10 md:mt-14">
         {/* AGENIUS Title with Badges */}
         <div className="relative inline-block">
-          <h1 className="font-oswald text-7xl md:text-9xl lg:text-[16rem] font-[550] text-[#3D1A1F] tracking-tight leading-[1.1]">
-            AGENIUS
-          </h1>
+        <div className="flex justify-center">
+  <img
+    src="/heading 1.png"
+    alt="FdMS"
+    className="w-[200px] md:w-[200px] lg:w-[400px] object-contain"
+  />
+</div>
+
 
           {/* Decorative Badges */}
           <div className="absolute -left-8 md:-left-16 top-4 md:top-8 bg-[#C8E6C9] text-[#3D1A1F] px-3 py-1 rounded-full text-xs md:text-sm font-bold rotate-[-8deg] shadow-md">
@@ -76,16 +81,25 @@ export default function HeroSection() {
           </div>
         </div>
 
-        {/* Subheading */}
-        <h2 className="font-oswald text-2xl md:text-4xl lg:text-5xl font-bold text-[#3D1A1F] mb-6 md:mb-8 leading-tight">
-          Your brand deserves to be
+        <h2 className="font-oswald text-1xl md:text-1xl lg:text-2xl font-medium text-[#3D1A1F] mb-6 md:mb-8 leading-tight">
+          A Creative Agency by:
+
           <br />
-          Seen, Heard, and Remembered
+          SAUHITYAA
+
+        </h2>
+
+        {/* Subheading */}
+        <h2 className="font-oswald text-2xl md:text-3xl lg:text-4xl font-bold text-[#3D1A1F] mb-6 md:mb-8 leading-tight">
+          Designed to be seen.
+
+          <br />
+          Built to be remembered.
         </h2>
 
         {/* CTA Button */}
-        <button className="bg-[#FFE878] hover:bg-[#ffed4e] text-lg md:text-xl font-bold px-8 md:px-12 py-3 md:py-4 text-[#3b001b] font-oswald rounded-full border-b-4 border-[#3b001b] shadow-md transition-all duration-200 active:translate-y-1 active:shadow-sm">
-          Get Template
+        <button className="bg-[#FFE878] hover:bg-[#ffed4e] text-lg md:text-xl font-bold px-8 md:px-7 py-3 md:py-3 text-[#3b001b] font-oswald rounded-full border-b-4 border-[#3b001b] shadow-md transition-all duration-200 active:translate-y-1 active:shadow-sm">
+          Book a Call
         </button>
       </div>
 
@@ -95,10 +109,10 @@ export default function HeroSection() {
         <img
           src="/main.png"
           alt="Background"
-          className="w-full object-cover"
-          style={{
-            height: "28rem",
-          }}
+          className="w-full object-cover h-[20rem] lg:h-[40rem] md:h-[30rem] sm:h-[20rem] xs:h-[22rem]"
+          // style={{
+          //   height: "40rem",
+          // }}
         />
 
         {/* Top Fade Effect */}
@@ -106,7 +120,7 @@ export default function HeroSection() {
 
         {/* Center Circle Video */}
         <div className="absolute inset-0 flex items-center justify-center z-20">
-          <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-[22rem] md:h-[22rem] lg:w-[28rem] lg:h-[28rem] rounded-full overflow-hidden shadow-2xl border-4 border-white/50 backdrop-blur-sm">
+          <div className="relative w-64 h-64 sm:w-20 sm:h-20 md:w-[28rem] md:h-[28rem] lg:w-[37rem] lg:h-[37rem] rounded-full overflow-hidden shadow-2xl border-4 border-white/50 backdrop-blur-sm">
             <video
               className="w-full h-full object-cover"
               autoPlay

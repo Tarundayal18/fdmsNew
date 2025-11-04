@@ -13,6 +13,8 @@ import Tesiminiols from "@/components/testiminiols"
 import Navbar from "@/components/navbar"
 import HeroSection from "@/components/hero-section"
 import FeaturesSection from "@/components/features-section"
+import ProjectsGridSection from "@/components/projects-grid-section"
+import FounderNoteSection from "@/components/founder-note-section"
 
 export default function Home() {
   return (
@@ -23,12 +25,14 @@ export default function Home() {
       <AnimatedIconsSection />
       <ServicesSection />
       <WhyBestSection />
-      <PortfolioSection />
+      <ProjectsGridSection />
+      {/* <PortfolioSection /> */}
       <StepsSection />
       <ComparisonSection />
       <Tesiminiols />
-      <PricingSection />
-      <AboutSection />
+      {/* <PricingSection /> */}
+      {/* <AboutSection /> */}
+      <FounderNoteSection />
       <FaqSection />
       <ContactSection />
       <FooterSection />

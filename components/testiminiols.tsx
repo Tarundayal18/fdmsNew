@@ -195,9 +195,9 @@ const videoTestimonials = [
           </div>
         </div>
 
-        <div className="mt-20 md:mt-24 lg:mt-32">
+        {/* <div className="mt-20 md:mt-24 lg:mt-32">
           <VideoTestimonials testimonials={videoTestimonials} />
-        </div>
+        </div> */}
 
       </div>
     </main>

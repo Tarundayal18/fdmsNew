@@ -116,10 +116,10 @@ export default function AnimatedIconsSection() {
   ];
 
   const stats = [
-    { number: "40", suffix: "+", label: "Brands launched" },
-    { number: "250", suffix: "+", label: "Projects Delivered" },
-    { number: "500", suffix: "+", label: "Moodboards created" },
-    { number: "94", suffix: "%", label: "Happy clients" },
+    { number: "9", suffix: "+", label: "years of experience" },
+    { number: "60", suffix: "+", label: "brands launched" },
+    { number: "1000", suffix: "+", label: "projects delivered" },
+    { number: "98", suffix: "%", label: "On Time Guarantee" },
   ];
 
   return (

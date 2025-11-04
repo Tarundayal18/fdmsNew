@@ -1,20 +1,20 @@
 export default function FeaturesSection() {
     const features = [
       {
-        title: "Fast and Reliable Delivery",
-        description: "We move at the speed of creativity — and caffeine. Your deadlines won't even see us coming.",
+        title: "Deadlines? We Eat Them.",
+        description: "We sprint with ideas faster than coffee kicks in — your timelines are safe with us.",
         bgColor: "bg-[#d4f4dd]",
         image: "/img01.png",
       },
       {
-        title: "Clear, No-Surprise Pricing",
-        description: "No hidden fees, no sneaky charges — just clear, honest pricing and work that makes you wonder.",
+        title: "No Fine Print Games.",
+        description: "Clear, upfront pricing — the only surprise you’ll get is how good the work looks.",
         bgColor: "bg-[#f5d4e8]",
         image: "/img02.png",
       },
       {
-        title: "Everything, Under One Roof",
-        description: "Design? Branding? Websites? TikTok dances? (Okay, maybe not that last one... yet.)",
+        title: "One-Stop Creative Circus",
+        description: "Designs, brands, websites, campaigns — everything under one roof, minus the juggling clowns.",
         bgColor: "bg-[#fef6c8]",
         image: "/img03.png",
       },
@@ -43,7 +43,7 @@ export default function FeaturesSection() {
                 </h3>
   
                 {/* Description */}
-                <p className="max-w-sm w-65 text-base leading-relaxed text-[#3d1a1f]">{feature.description}</p>
+                <p className="max-w-sm w-65 text-base font-oswald leading-relaxed text-[#3d1a1f]">{feature.description}</p>
               </div>
             ))}
           </div>
