@@ -62,7 +62,7 @@ export default function HeroSection() {
         <div className="relative inline-block">
         <div className="flex justify-center">
   <img
-    src="/heading 1.png"
+    src="/Heading 1.png"
     alt="FdMS"
     className="w-[200px] md:w-[200px] lg:w-[400px] object-contain"
   />
