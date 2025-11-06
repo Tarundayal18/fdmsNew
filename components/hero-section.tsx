@@ -12,13 +12,13 @@ export default function HeroSection() {
               FdMS
             </h1>
           </div>
-        <div className="flex justify-center">
-  <img
-    src="/Heading 1.png"
-    alt="FdMS"
-    className="w-[200px] md:w-[200px] lg:w-[400px] object-contain"
-  />
-</div>
+          <div className="flex justify-center">
+            <img
+              src="/Heading 1.png"
+              alt="FdMS"
+              className="w-[200px] md:w-[200px] lg:w-[400px] object-contain"
+            />
+          </div>
 
 
           {/* Decorative Badges */}
@@ -58,7 +58,7 @@ export default function HeroSection() {
       {/* Full-width Background Image */}
       <div className="relative w-full flex items-center justify-center mt-8 md:mt-16">
         {/* Background with radial gradient design */}
-        <div 
+        <div
           className="w-full h-[20rem] lg:h-[40rem] md:h-[30rem] sm:h-[20rem] xs:h-[22rem]"
           style={{
             backgroundImage: 'radial-gradient(circle at center center, #F6C2F4 0%, #FAFABF 100%), repeating-radial-gradient(circle at center center, rgb(240, 151, 197), rgb(240, 151, 197), 19px, transparent 38px, transparent 19px)',
