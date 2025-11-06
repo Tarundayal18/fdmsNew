@@ -87,7 +87,7 @@ export default function ProjectsGridSection() {
 
   return (
     <section className="bg-[#fff8e6] py-16 sm:py-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-3 lg:px-0">
+      <div className="max-w-[90rem] mx-auto px-4 sm:px-3 lg:px-0">
         {/* ===== HEADER ===== */}
         <div className="text-center mb-16">
           <h2 className="font-oswald text-5xl sm:text-6xl lg:text-8xl font-bold text-[#2b0012]">

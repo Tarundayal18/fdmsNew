@@ -9,10 +9,10 @@ import TestimonialCard from "./testimonial-card"
 const testimonials = [
   {
     id: 1,
-    name: "Tobias Green Says...",
+    name: "Swain Babu Says...",
     quote:
-      '"Working with this team was a dream. Super organized, wildly creative, and just fun to talk to. They totally got our brand from day one."',
-    company: "Founder, GreenSpark Innovations",
+      '“They gave our real estate brand a premium edge. The website feels modern, trustworthy, and has become our best sales tool.”',
+    company: "Founder, KDR Realty",
     avatar: "🌟",
     bgColor: "bg-[#f09fa8]",
     textColor: "text-[#3b001b]",
@@ -20,10 +20,10 @@ const testimonials = [
   },
   {
     id: 2,
-    name: "Silas Leighton Says...",
+    name: "Tushar Says...",
     quote:
-      '"They took our messy ideas and turned them into a stunning identity. Everything feels cohesive, intentional, and us. We\'re obsessed."',
-    company: "Managing Director, VentureVista",
+      '“Their creative branding with sharp performance marketing made us unforgettable. Strategy met execution perfectly — results spoke louder than promises.”',
+    company: "Founder, Rolling Crunchy's",
     avatar: "👨",
     bgColor: "bg-[#f6c2f4]",
     textColor: "text-[#3b001b]",
@@ -31,10 +31,10 @@ const testimonials = [
   },
   {
     id: 3,
-    name: "Orion Vance Says...",
+    name: "Anupam Says...",
     quote:
-      '"We still get compliments on our branding. It feels premium, fun, and totally fits our vibe. Couldn\'t have asked for a better team."',
-    company: "CEO, Lunar Lux Co.",
+      '“From logos to gifting, everything felt premium and personal. They stitched a consistent identity that elevated our brand presence everywhere.”',
+    company: "Founder, ETIA Consult",
     avatar: "⭐",
     bgColor: "bg-[#fefae7]",
     textColor: "text-[#3b001b]",
@@ -42,10 +42,10 @@ const testimonials = [
   },
   {
     id: 4,
-    name: "Callum",
+    name: "Parag Says...",
     quote:
-      '"We\'ve worked with agencies, but this was different—in the best way. Creative with purpose, amazing attention to detail."',
-    company: "Co-Founder, Media",
+      '“The rebrand and website redesign felt like a rebirth. Bold, clean, and modern — exactly what we needed to stand apart.”',
+    company: "Head of Product & Marketing, EdgeNxt",
     avatar: "👤",
     bgColor: "bg-[#c7caff]",
     textColor: "text-[#3b001b]",
@@ -53,10 +53,10 @@ const testimonials = [
   },
   {
     id: 5,
-    name: "Callum",
+    name: "Mike Says...",
     quote:
-      '"We\'ve worked with agencies, but this was different—in the best way. Creative with purpose, amazing attention to detail."',
-    company: "Co-Founder, Media",
+      '“Smart branding, sleek website, and campaigns that clicked. They understood our market better than we did — impact was immediate.”',
+    company: "Founder, 1Di.ca",
     avatar: "👤",
     bgColor: "bg-[#f6c2f4]",
     textColor: "text-[#3b001b]",
@@ -64,10 +64,10 @@ const testimonials = [
   },
   {
     id: 6,
-    name: "Callum",
+    name: "Aksel Says...",
     quote:
-      '"We\'ve worked with agencies, but this was different—in the best way. Creative with purpose, amazing attention to detail."',
-    company: "Co-Founder, Media",
+      '“Their design was not just beautiful, it was intuitive. Branding blended with seamless UX — users loved it from day one.”',
+    company: "Founder, NORIND",
     avatar: "👤",
     bgColor: "bg-[#c0ecbf]",
     textColor: "text-[#3b001b]",
@@ -143,7 +143,7 @@ const videoTestimonials = [
 
   return (
     <main className="min-h-screen bg-[#fae0be] px-4 py-12 md:py-16 lg:py-20">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-8xl">
         {/* Header Section */}
         <div className="mb-12 text-center md:mb-16 lg:mb-20">
           <h1 className="font-oswald text-6xl font-bold text-[#3b001b] md:text-6xl lg:text-8xl">
@@ -161,7 +161,7 @@ const videoTestimonials = [
         {/* Carousel Section */}
         <div className="relative">
           {/* Navigation Buttons */}
-          <div className="absolute -right-2 -top-14 z-10 flex gap-2 md:-right-4 md:-top-16 lg:-right-6 lg:-top-20">
+          <div className="absolute -right-2 -top-14 z-10 flex gap-2 md:-right-0 md:-top-16 lg:-right-0 lg:-top-20">
             <button
               onClick={goToPrevious}
               disabled={isTransitioning}

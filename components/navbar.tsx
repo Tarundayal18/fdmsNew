@@ -25,10 +25,10 @@ export default function Navbar() {
   ]
 
   const services = [
-    { label: "Branding & Identity", href: "/branding-identity" },
-    { label: "Social Media", href: "/social-media" },
-    { label: "Websites & Mobile Apps", href: "/websites-mobile-apps" },
-    { label: "Performance Marketing", href: "/performance-marketing" },
+    { label: "Branding & Identity", href: "/./services/branding-identity" },
+    { label: "Social Media", href: "/./services/social-media" },
+    { label: "Websites & Mobile Apps", href: "/./services/web-mobile" },
+    { label: "Performance Marketing", href: "/./services/performance-marketing" },
   ]
 
   return (
@@ -110,7 +110,7 @@ export default function Navbar() {
             </Link>
             <button
               onClick={() => setIsOpen(true)}
-              className="bg-green-200 mt-6 hover:bg-[#c0ecbf] transition px-6 py-2 rounded-2xl font-oswald font-bold text-[#2b0012] text-2xl"
+              className="bg-green-200 mt-6 hover:bg-[#c0ecbf] transition px-6 py-2 rounded-2xl font-oswald font-bold text-[#3D1A1F] text-2xl"
             >
               MENU
             </button>

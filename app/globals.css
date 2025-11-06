@@ -208,6 +208,15 @@
   animation: float-3 4.2s ease-in-out infinite;
 }
 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

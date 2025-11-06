@@ -110,7 +110,7 @@ export default function FaqSection() {
               {expandedId === item.id && (
                 <div className="mt-4 md:mt-5 ml-4 md:ml-8 mr-4 md:mr-0 animate-in fade-in duration-300">
                   <div
-                    className="rounded-3xl p-5 md:p-6 text-sm md:text-base leading-relaxed"
+                    className="rounded-3xl font-oswald p-5 md:p-6 text-sm md:text-base leading-relaxed"
                     style={{ backgroundColor: "#A8D8D8", color: "#3B001B" }}
                   >
                     {item.answer}

@@ -41,16 +41,28 @@ export default function StepsSection() {
     <section 
       className="w-full py-16 px-4 md:py-24 min-h-screen flex "
       style={{
-        backgroundColor: 'transparent',
-        backgroundImage:
-        'radial-gradient(ellipse 8px 8px, rgb(250, 225, 199) 25%, rgb(246, 215, 201) 32%, rgb(245, 197, 242) 25%)',
-        backgroundSize: '16px 16px',
+        backgroundImage: `
+          radial-gradient(circle at center, rgba(255, 255, 255, 0.4) 2px, transparent 2px),
+          radial-gradient(circle at center, rgba(255, 255, 255, 0.2) 2px, transparent 2px),
+          linear-gradient(180deg, #FAE1C7 0%, #F6D7C9 32%, #F5C5F2 100%)
+        `,
+        backgroundSize: `
+          30px 30px,
+          30px 30px,
+          100% 100%
+        `,
+        backgroundPosition: `
+          0 0,
+          15px 15px,
+          center
+        `,
+        backgroundRepeat: 'repeat, repeat, no-repeat',
+        filter: 'blur(0.5px)',
       }}
-      
     >
-      <div className="max-w-[90rem] mx-auto w-full text-center">
+      <div className="max-w-[90rem] mx-auto w-full ">
         <div className="mb-12 md:mb-16 relative">
-          <h2 className="text-5xl md:text-8xl font-oswald text-[#3b001b] font-bold leading-tight text-balance">
+          <h2 className="text-5xl md:text-8xl text-center font-oswald text-[#3b001b] font-bold leading-tight text-balance">
             Our not-so
             <br />
             secret sauce
