@@ -12,14 +12,6 @@ export default function HeroSection() {
               FdMS
             </h1>
           </div>
-          <div className="flex justify-center">
-            <img
-              src="/Heading 1.png"
-              alt="FdMS"
-              className="w-[200px] md:w-[200px] lg:w-[400px] object-contain"
-            />
-          </div>
-
 
           {/* Decorative Badges */}
           <div className="absolute -left-8 md:-left-16 top-4 md:top-8 bg-[#C8E6C9] text-[#3D1A1F] px-3 py-1 rounded-full text-xs md:text-sm font-bold rotate-[-8deg] shadow-md">
