@@ -34,7 +34,7 @@ export default function MinimumProjectsGrid() {
               {/* IMAGE CARD */}
               <div className="relative w-full aspect-[16/9] rounded-[20px] overflow-hidden bg-gray-200 shadow-md">
                 <img
-                  src={project.image}
+                  src={project.heroImage}
                   alt={project.title}
                   className="w-full h-full object-cover rounded-[20px] transition-transform duration-500 group-hover:scale-105"
                 />

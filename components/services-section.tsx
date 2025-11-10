@@ -54,42 +54,42 @@ const subServices: Record<string, SubService[]> = {
       title: "Logo Magic",
       description:
         "We create memorable logos and identity kits that visually define your brand's purpose and personality.",
-      image: "/Brand Makeover.png",
+      image: "/services/1/Logo (2).png",
     },
     {
       id: "pack",
       title: "Pack Attack",
       description:
         "We design packaging and brand collaterals that make your product irresistible — on shelves or screens.",
-      image: "/Container (1).png",
+      image: "/services/1/Pack.png",
     },
     {
       id: "collateral",
       title: "Collateral Crush",
       description:
         "We design brochures, presentations, flyers, and digital decks that turn your brand narrative into conversion power.",
-      image: "/Container (2).png",
+      image: "/services/1/Collateral Crush.png",
     },
     {
       id: "identity",
       title: "Identity Kit",
       description:
         "We create brand identity kits with everything from notepads to ID cards — where every detail speaks your brand language.",
-      image: "/Container (3).png",
+      image: "/services/1/Identity Kit.png",
     },
     {
       id: "Branding As A Service",
-      title: "Identity Kit",
+      title: "Branding As A Service",
       description:
         "Monthly subscription-based branding support that adapts to your needs, billed only for usage.",
-      image: "/Container (4).png",
+      image: "/services/1//Branding As A Service.png",
     },
     {
       id: "Brand Makeover",
-      title: "Identity Kit",
+      title: "/services/1/Brand Makeover",
       description:
         "We transform existing brands with complete identity revamps — fresh, relevant, and future-ready.",
-      image: "/Container (5).png",
+      image: "/services/1/Branding Makeover.png",
     },
   ],
   web: [
@@ -97,25 +97,25 @@ const subServices: Record<string, SubService[]> = {
       id: "Post Packs",
       title: "Post Packs",
       description: "Monthly or quarterly bundled social media solutions that make your brand stay consistent, engaging, and relevant.",
-      image: "/ui-ux-design-interface.png",
+      image: "/services/2/Post Packs.png",
     },
     {
       id: "Pay & Play",
       title: "Pay & Play",
       description: "A flexible social media service billed only on per-post usage with monthly reports.",
-      image: "/web-development-code.png",
+      image: "/services/2/Pay & Play.png",
     },
     {
       id: "CXO Glow",
       title: "CXO Glow",
       description: "We discreetly manage and grow LinkedIn profiles for CXOs, founders, and busy professionals.",
-      image: "/backend-server-architecture.jpg",
+      image: "/services/2/CXO.png",
     },
     {
       id: "Buzz Builder",
       title: "Buzz Builder",
       description: "We create custom social campaigns designed to meet specific objectives within realistic budgets.",
-      image: "/seo-analytics-dashboard.png",
+      image: "/services/2/Buzz.png",
     },
   ],
   marketing: [
@@ -123,25 +123,25 @@ const subServices: Record<string, SubService[]> = {
       id: "Search Surge",
       title: "Search Surge",
       description: "We plan, create, and optimize search ad campaigns that drive real ROI.",
-      image: "/placeholder.svg?height=200&width=250&query=writing desk with typewriter",
+      image: "/services/4/Search Surge.png",
     },
     {
       id: "Social Spark",
       title: "Social Spark.",
       description: "We craft paid social campaigns that build awareness, engagement, and conversions.",
-      image: "/placeholder.svg?height=200&width=250&query=photography studio lighting",
+      image: "/services/4/Social Spark..png",
     },
     {
       id: "Data Drill",
       title: "Data Drill",
       description: "We integrate multi-channel analytics for 360° marketing insights and smarter business decisions.",
-      image: "/placeholder.svg?height=200&width=250&query=video production camera",
+      image: "/services/4/Data Drill.png",
     },
     {
       id: "Growth Grind",
       title: "Growth Grind",
       description: "We create custom goal-based marketing plans that deliver measurable growth.",
-      image: "/placeholder.svg?height=200&width=250&query=social media marketing strategy",
+      image: "/services/4/Growth Grind.png",
     },
   ],
   content: [
@@ -149,25 +149,25 @@ const subServices: Record<string, SubService[]> = {
       id: "Code Craft",
       title: "Code Craft",
       description: "We design and build websites from scratch — fast, secure, and uniquely yours.",
-      image: "/social-media-marketing-campaigns.jpg",
+      image: "/services/3/Code Craft.png",
     },
     {
       id: "Plug & Play",
       title: "Plug & Play",
       description: "We develop dynamic websites on platforms like WordPress, Shopify, and Wix for quick, cost-efficient launches.",
-      image: "/email-marketing-automation.png",
+      image: "/services/3/Plug and Play.png",
     },
     {
       id: "Shop Stop",
       title: "Shop Stop",
       description: "A 12-month subscription plan that covers your website, hosting, and ongoing marketing.",
-      image: "/ppc-advertising-dashboard.jpg",
+      image: "/services/3/Shop Stop.png",
     },
     {
       id: "App Attack",
       title: "App Attack",
       description: "We design and develop mobile apps for Android and iOS — built to grow your digital reach.",
-      image: "/analytics-dashboard-metrics.jpg",
+      image: "/services/3/App Attack.png",
     },
   ],
 }

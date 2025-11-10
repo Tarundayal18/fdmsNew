@@ -256,7 +256,7 @@ export default function HeroSection() {
                 muted
                 playsInline
               >
-                <source src="/bussiness.mp4" type="video/mp4" />
+                <source src="/bussiness2.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent pointer-events-none" />
