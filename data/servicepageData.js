@@ -4,7 +4,7 @@ export const servicePageData = [
     {
         id: 1,
         mainheading: "LOGO MAGIC",
-        MainImage: "/services/images/1.jpg",
+        MainImage: "/services/images/Con1.jpg",
         heading: "Crafting logos that speak louder than your brand pitch.",
         subheading: "We create memorable logos and identity kits that visually define your brand’s purpose and personality.",
         serviceCards: [
@@ -43,7 +43,7 @@ export const servicePageData = [
     {
         id: 2,
         mainheading: "Pack Attack",
-        MainImage: "/services/images/2.jpg",
+        MainImage: "/services/images/Con2.jpg",
         heading: "Packaging that makes your brand too good to ignore.",
         subheading: "We design packaging and brand collaterals that make your product irresistible — on shelves or screens.",
         serviceCards: [
@@ -82,7 +82,7 @@ export const servicePageData = [
     {
         id: 3,
         mainheading: "Collateral Crush",
-        MainImage: "/services/images/3.jpg",
+        MainImage: "/services/images/Con3.jpg",
         heading: "Marketing collaterals that do more than just decorate desks.",
         subheading: "We design brochures, presentations, flyers, and digital decks that turn your brand narrative into conversion power",
         serviceCards: [
@@ -121,7 +121,7 @@ export const servicePageData = [
     {
         id: 4,
         mainheading: "Identity Kit",
-        MainImage: "/services/images/4.jpg",
+        MainImage: "/services/images/Con4.jpg",
         heading: "Stationery that screams brand personality — not corporate boredom.",
         subheading: "We create brand identity kits with everything from notepads to ID cards — where every detail speaks your brand language.",
         serviceCards: [
@@ -160,7 +160,7 @@ export const servicePageData = [
     {
         id: 5,
         mainheading: "Branding As A Service",
-        MainImage: "/services/images/5.jpg",
+        MainImage: "/services/images/Con5.jpg",
         heading: "Your in-house creative team — without the overhead chaos.",
         subheading: "Monthly subscription-based branding support that adapts to your needs, billed only for usage.",
         serviceCards: [
@@ -199,7 +199,7 @@ export const servicePageData = [
     {
         id: 6,
         mainheading: "Brand Makeover",
-        MainImage: "/services/images/6.jpg",
+        MainImage: "/services/images/Con6.jpg",
         heading: "Rebranding that feels like a glow-up, not an identity crisis.",
         subheading: "We transform existing brands with complete identity revamps — fresh, relevant, and future-ready.",
         serviceCards: [
@@ -238,7 +238,7 @@ export const servicePageData = [
     {
         id: 7,
         mainheading: "Post Packs",
-        MainImage: "/services/images/7.jpg",
+        MainImage: "/services/images/Con7.jpg",
         heading: "Social media management that’s smarter, not louder.",
         subheading: "Monthly or quarterly bundled social media solutions that make your brand stay consistent, engaging, and relevant.",
         serviceCards: [
@@ -278,7 +278,7 @@ export const servicePageData = [
     {
         id: 8,
         mainheading: "Pay & Play",
-        MainImage: "/services/images/8.jpg",
+        MainImage: "/services/images/Con8.jpg",
         heading: "Pay for what you post, not what you don’t.",
         subheading: "A flexible social media service billed only on per-post usage with monthly reports.",
         serviceCards: [
@@ -317,7 +317,7 @@ export const servicePageData = [
     {
         id: 9,
         mainheading: "CXO Glow",
-        MainImage: "/services/images/9.jpg",
+        MainImage: "/services/images/Con9.jpg",
         heading: "Your LinkedIn, managed like a thought leader’s playground.",
         subheading: "We discreetly manage and grow LinkedIn profiles for CXOs, founders, and busy professionals.",
         serviceCards: [
@@ -356,7 +356,7 @@ export const servicePageData = [
     {
         id: 10,
         mainheading: "Buzz Builder",
-        MainImage: "/services/images/10.jpg",
+        MainImage: "/services/images/Con10.jpg",
         heading: "Goal-driven campaigns that build buzz and bring results.",
         subheading: "We create custom social campaigns designed to meet specific objectives within realistic budgets.",
         serviceCards: [
@@ -395,7 +395,7 @@ export const servicePageData = [
     {
         id: 11,
          mainheading: "Code Craft",
-         MainImage: "/services/images/11.jpg",
+         MainImage: "/services/images/Con11.jpg",
         heading: "Custom-coded websites crafted for speed, scalability, and soul.",
         subheading: "We design and build websites from scratch — fast, secure, and uniquely yours.",
         serviceCards: [
@@ -434,7 +434,7 @@ export const servicePageData = [
     {
         id: 12,
         mainheading: "Plug & Play",
-        MainImage: "/services/images/12.jpg",
+        MainImage: "/services/images/Con12.jpg",
         heading: "Smart websites built fast — no code, no chaos.",
         subheading: "We develop dynamic websites on platforms like WordPress, Shopify, and Wix for quick, cost-efficient launches.",
         serviceCards: [
@@ -473,7 +473,7 @@ export const servicePageData = [
     {
         id: 13,
         mainheading: "Shop Stop",
-        MainImage: "/services/images/13.jpg",
+        MainImage: "/services/images/Con13.jpg",
         heading: "eCommerce websites made affordable — pay monthly, not upfront.",
         subheading: "A 12-month subscription plan that covers your website, hosting, and ongoing marketing.",
         serviceCards: [
@@ -512,7 +512,7 @@ export const servicePageData = [
     {
         id: 14,
         mainheading: "App Attack",
-        MainImage: "/services/images/14.jpg",
+        MainImage: "/services/images/Con14.jpg",
         heading: "Mobile apps that perform, engage, and convert — beautifully.",
         subheading: "We design and develop mobile apps for Android and iOS — built to grow your digital reach.",
         serviceCards: [
@@ -551,7 +551,7 @@ export const servicePageData = [
     {
         id: 15,
         mainheading: "Search Surge",
-        MainImage: "/services/images/15.jpg",
+        MainImage: "/services/images/Con15.jpg",
         heading: "Google Ads that spend smart, not just spend more.",
         subheading: "We plan, create, and optimize search ad campaigns that drive real ROI.",
         serviceCards: [
@@ -589,6 +589,7 @@ export const servicePageData = [
     },
     {
         id: 16,
+        MainImage: "/services/images/Con16.jpg",
         heading: "Igniting growth through Meta, WhatsApp, and LinkedIn ads.",
         subheading: "We craft paid social campaigns that build awareness, engagement, and conversions.",
         serviceCards: [
@@ -627,7 +628,7 @@ export const servicePageData = [
     {
         id: 17,
          mainheading: "Data Drill",
-         MainImage: "/services/images/17.jpg",
+         MainImage: "/services/images/Con17.jpg",
         heading: "Dig deep into data, not just dashboards.",
         subheading: "We integrate multi-channel analytics for 360° marketing insights and smarter business decisions.",
         serviceCards: [
@@ -666,7 +667,7 @@ export const servicePageData = [
     {
         id: 18,
         mainheading: "Growth Grind",
-        MainImage: "/services/images/18.jpg",
+        MainImage: "/services/images/Con18.jpg",
         heading: "Your business goals, powered by performance and precision.",
         subheading: "We create custom goal-based marketing plans that deliver measurable growth.",
         serviceCards: [
