@@ -115,7 +115,7 @@ export default function BrandingIdentityPage() {
             {/* Right Illustration */}
             <div className="flex justify-center lg:[30px] lg:ml-[30px]">
               <img
-                src="/container4.jpg"
+                src="/Containering4.jpg"
                 alt="Business Solutions Illustration"
                 className="w-full max-w-md lg:max-w-lg object-contain"
               />
