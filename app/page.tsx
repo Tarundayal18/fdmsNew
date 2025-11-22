@@ -25,9 +25,7 @@ export default function Home() {
       <FeaturesSection />
       <AnimatedIconsSection />
       {/* <ServicesSection /> */}
-      <ServicesSection />
       <WhyBestSection />
-      {/* <ProjectsGridSection /> */}
       <MinimumProjectsGrid />
       <StepsSection />
       <ComparisonSection />

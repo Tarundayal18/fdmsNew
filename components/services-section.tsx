@@ -173,6 +173,17 @@ const subServices: Record<string, SubService[]> = {
 
 export default function ServicesSection() {
   const [expandedId, setExpandedId] = useState<string | null>(null)
+const [isClosing, setIsClosing] = useState(false)
+
+
+const handleClose = () => {
+  setIsClosing(true);       // play closing animation
+  setTimeout(() => {
+    setExpandedId(null);    // remove item after animation ends
+    setIsClosing(false);    // reset
+  }, 600); // timing must match slideUp animation duration
+};
+
 
   return (
     <section className="bg-orange-50 py-16 px-4 md:px-8 lg:px-16">
@@ -208,6 +219,25 @@ export default function ServicesSection() {
         .animate-fadeInUp {
           animation: fadeInUp 0.6s ease-out forwards;
         }
+
+        @keyframes slideUp {
+  0% {
+    opacity: 1;
+    max-height: 2000px;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    max-height: 0;
+    transform: translateY(-15px);
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+}
+
+
 
         .stagger-1 { animation-delay: 0.1s; opacity: 0; }
         .stagger-2 { animation-delay: 0.2s; opacity: 0; }
@@ -251,7 +281,7 @@ export default function ServicesSection() {
 
             {/* Expanded View */}
             {expandedId === service.id && (
-              <div className={`${service.bgColor} p-8 md:p-12 rounded-2xl overflow-hidden animate-slideDown`}>
+              <div className={`${service.bgColor} p-8 md:p-12 rounded-2xl overflow-hidden ${isClosing ? "animate-slideUp" : "animate-slideDown"}`}>
                 {/* Header */}
                 <div className="flex items-start justify-between mb-8 pb-6 border-b-2 border-[#3B001B]">
                   <div>
@@ -259,7 +289,7 @@ export default function ServicesSection() {
                     <p className="text-[#3B001B] text-sm md:text-base font-medium mt-2">{service.subtitle}</p>
                   </div>
                   <button
-                    onClick={() => setExpandedId(null)}
+                    onClick={handleClose}
                     className="text-[#3B001B] hover:text-purple-700 transition-colors flex-shrink-0 ml-4"
                   >
                     <X size={32} />

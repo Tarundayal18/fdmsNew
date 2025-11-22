@@ -226,7 +226,7 @@ function ProjectPageContent() {
 
       {/* Hero Section */}
       <section className="pt-12 sm:pt-16 pb-8 sm:pb-12 px-4 sm:px-6 md:px-12 lg:px-16 xl:px-24">
-        <div className="max-w-7xl mx-auto py-6 sm:py-8 md:py-12">
+        <div className="max-w-7xl mx-auto py-14 sm:py-14 md:py-14">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold font-oswald text-center text-[#3e1a2a] mb-4 sm:mb-6 px-2">
             {project.title}
           </h1>

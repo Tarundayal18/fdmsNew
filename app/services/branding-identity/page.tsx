@@ -141,10 +141,28 @@ export default function BrandingIdentityPage() {
 
               <div className="absolute top-8 left-8 right-8 text-white">
                 {/* Title: small increase */}
-                <h2 className="text-[2.6rem] font-bold font-oswald">{card.title}</h2>
+                <h2 className="
+    font-oswald font-bold
+    text-[2.2rem]
+    sm:text-[2.6rem]
+    lg:text-[2.8rem]
+    xl:text-[3.0rem]
+    leading-tight
+  "
+                >{card.title}</h2>
 
                 {/* Description: small increase */}
-                <p className="mt-2 text-[1.5rem] font-oswald">{card.text}</p>
+                <p className="
+    mt-3 font-oswald
+    text-[1.5rem]
+    sm:text-[1.6rem]
+    lg:text-[1.7rem]
+    xl:text-[1.8rem]
+    2xl:text-[1.8rem]
+    max-w-[90%]
+    leading-snug
+    mt-4
+  ">{card.text}</p>
               </div>
 
               <button

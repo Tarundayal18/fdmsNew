@@ -177,12 +177,6 @@ const handleChange = (e: any) => {
         {/* Hero Section with CTA */}
         <section className="w-full py-20 md:py-32 px-4 md:px-8 bg-[#f3f4f6] min-h-screen flex items-center">
           <div className="max-w-8xl mx-auto text-center">
-            {/* Founder Avatars */}
-            <h1 className="text-4xl font-oswald md:text-6xl lg:text-7xl font-bold text-[#3b001b] mb-6 leading-tight">
-              {/* Google Ads that spend smart, not just spend more. */}
-              {service.mainheading}
-
-            </h1>
             <div className="flex justify-center items-center gap-3 mb-8">
 
               
@@ -199,16 +193,23 @@ const handleChange = (e: any) => {
               </div>
               <p className="text-[#3b001b] font-oswald text-sm md:text-base font-semibold">Trusted by founders.</p>
             </div>
+            {/* Founder Avatars */}
+            <h1 className="text-6xl font-oswald md:text-7xl lg:text-8xl font-bold text-[#3b001b] mb-6 leading-tight">
+              {/* Google Ads that spend smart, not just spend more. */}
+              {service.mainheading}
+
+            </h1>
+            
 
             {/* Main Heading */}
-            <h1 className="text-2xl font-oswald md:text-3xl lg:text-5xl font-bold text-[#3b001b] mb-6 leading-tight">
+            <h1 className="text-2xl font-oswald md:text-3xl lg:text-5xl font-bold text-[#3b001b] mb-6 leading-tight max-w-4xl mx-auto">
               {/* Google Ads that spend smart, not just spend more. */}
               {service.heading}
 
             </h1>
 
             {/* Subheading */}
-            <p className="text-lg font-oswald md:text-xl text-[#3b001b] mb-10">
+            <p className="text-lg font-oswald md:text-md text-[#3b001b] mb-10">
               {/* We plan, create, and optimize search ad campaigns that drive real ROI. */}
               {service.subheading}
 
@@ -230,7 +231,7 @@ const handleChange = (e: any) => {
           </div>
         </section>
 
-        <section className="w-full flex justify-center px-4 md:px-8 py-10">
+        <section className="w-full bg-[#f3f4f6] flex justify-center px-4 md:px-8 py-10">
           <div className="w-full max-w-8xl">
             <div className="w-full h-screen rounded-3xl overflow-hidden shadow-xl">
               <img
